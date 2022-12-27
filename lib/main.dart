@@ -1,4 +1,4 @@
-import 'package:disko2023/login_page.dart';
+import 'package:disko2023/start_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginPage(),
+//      home: const Condition(),
+      home: const StartPage(),
+//      home: const LoginPage(),
     );
   }
 }
